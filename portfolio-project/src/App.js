@@ -6,6 +6,7 @@ import Portfolio from './Components/Portfolio'
 import Connect from './Components/Connect'
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
+import './index.css';
 
 export default class App extends Component {
   render() {
