@@ -4,7 +4,7 @@ export default class Connect extends Component {
   render() {
     return (
       <Fragment>
-        Hi, I'm Ryan.
+        Connect
 
 
 

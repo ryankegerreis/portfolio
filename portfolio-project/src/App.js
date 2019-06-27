@@ -4,7 +4,7 @@ import Home from './Components/Home'
 import Skills from './Components/Skills'
 import Portfolio from './Components/Portfolio'
 import Connect from './Components/Connect'
-
+import 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
 
 export default class App extends Component {

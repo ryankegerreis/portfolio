@@ -4,12 +4,12 @@ export default class Home extends Component {
   render() {
     return (
       <Fragment>
-        Hi, I'm Ryan.
-        
-        
-        
-        
-        
+        Home
+
+
+
+
+
       </Fragment>
     )
   }
