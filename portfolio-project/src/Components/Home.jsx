@@ -4,21 +4,48 @@ export default class Home extends Component {
   render() {
     return (
       <Fragment>
-        <div class="skewed-bg">
-          <div class="content">
-            <h1 class="title">Skewed background with CSS</h1>
-            <p class="text">This is a quick example to show how to get skewed backgrounds with plain HTML & CSS.</p>
+        <body>
+
+
+          <div className="st-container">
+
+            <input type="radio" name="radio-set" checked="checked" id="st-control-1" />
+            <a href="#st-panel-1">Serendipity</a>
+
+            <input type="radio" name="radio-set" id="st-control-2" />
+            <a href="#st-panel-2">Happiness</a>
+
+            <input type="radio" name="radio-set" id="st-control-3" />
+            <a href="#st-panel-3">Tranquillity</a>
+
+            <input type="radio" name="radio-set" id="st-control-4" />
+            <a href="#st-panel-4">Positivity</a>
+
+            <input type="radio" name="radio-set" id="st-control-5" />
+            <a href="#st-panel-5">Passion</a>
+
+            <div className="st-scroll">
+
+              <section className="st-panel" id="st-panel-1">
+                <div className="st-deco" data-icon="H"></div>
+                <h2>Serendipity</h2>
+                <p>Banksy adipisicing eiusmod banh mi sed...</p>
+              </section>
+
+              <section className="st-panel st-color" id="st-panel-2">
+                {/* <!-- ... --> */}
+              </section>
+
+              {/* <!-- ... st-panel-3, st-panel-4, st-panel-5 --> */}
+
+            </div>
+            {/* <!-- // st-scroll --> */}
+
           </div>
-        </div>
-
-        <footer class="footer">
-        </footer>
+          {/* <!-- // st-container --> */}
 
 
-
-
-
-
+        </body>
       </Fragment>
     )
   }
