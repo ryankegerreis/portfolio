@@ -5,9 +5,10 @@ export default class Nav extends Component {
     return (
       <Fragment>
 
-        <nav className="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
+        {/* Bootstrap version */}
+        <nav className="navbar fixed-bottom navbar-expand-lg navbar-light bg-light flex" id='nav'>
+          <div className="collapse navbar-collapse" >
+            <ul className="navbar-nav mr-auto mx-auto">
               <li className="nav-item">
                 <Link className="nav-link" to={'/'}>Home</Link >
               </li>
@@ -27,6 +28,17 @@ export default class Nav extends Component {
           </div>
         </nav>
 
+
+        {/* Flexbox version */}
+        {/* <nav id='nav'>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Skills</li>
+            <li>Portfolio</li>
+            <li>Connect</li>
+          </ul>
+        </nav> */}
       </Fragment >
     )
   }
