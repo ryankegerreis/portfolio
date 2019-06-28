@@ -4,12 +4,10 @@ export default class Portfolio extends Component {
   render() {
     return (
       <Fragment>
-        Portfolio
-
-
-
-
-
+        <div id='portfolio' className='flex'>
+          <h1>This is my portfolio.</h1>
+          <p>Isn't it cool?</p>
+        </div>
       </Fragment>
     )
   }

@@ -4,12 +4,10 @@ export default class Skills extends Component {
   render() {
     return (
       <Fragment>
-        Skills
-
-
-
-
-
+        <div id='skills' className='flex'>
+          <h1>These are some skills I've collected.</h1>
+          <p>But I still can't rollerskate...</p>
+        </div>
       </Fragment>
     )
   }

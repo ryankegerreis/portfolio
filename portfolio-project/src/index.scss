@@ -1,39 +1,40 @@
-body {
-	overflow: hidden;
-}
+$main-bg:lightblue;
+$alternate-bg:white;
 
-.st-container {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+.flex{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
 }
 
 
-.st-container > input,
-.st-container > a {
-	position: fixed;
-	bottom: 0px;
-	width: 20%;
-	cursor: pointer;
-	font-size: 16px;
-	height: 34px;
-	line-height: 34px;
+#home{
+width: 100vw;
+height: 100vh;
+background-color: $main-bg;
 }
 
-.st-container > input {
-	opacity: 0;
-	z-index: 1000;
+#about{
+	width: 100vw;
+	height: 100vh;
+	background-color: $alternate-bg;
 }
 
-.st-container > a {
-	z-index: 10;
-	font-weight: 700;
-	background: #e23a6e;
-	color: #fff;
-	text-align: center;
-	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
+#skills{
+	width: 100vw;
+	height: 100vh;
+	background-color: $main-bg;
 }
 
+#portfolio{
+	width: 100vw;
+	height: 100vh;
+	background-color: $alternate-bg;
+}
+
+#connect{
+	width: 100vw;
+	height: 100vh;
+	background-color: $main-bg;
+}
