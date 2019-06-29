@@ -8,6 +8,7 @@ export default class Home extends Component {
           <h1>Hi, I'm Ryan.</h1>
           <p>I'm a web developer.</p>
         </div>
+
       </Fragment>
     )
   }

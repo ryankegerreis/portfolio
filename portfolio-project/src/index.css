@@ -1,3 +1,7 @@
+* {
+  font-family: "Roboto";
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,37 +18,44 @@
           align-items: center;
 }
 
+#nav {
+  background-color: white;
+}
+
 #nav li {
   padding: 0 8vw;
+  font-size: 1.2em;
 }
 
 #home {
   width: 100vw;
   height: 100vh;
-  background-color: lightblue;
+  background-color: darkslateblue;
+  color: white;
 }
 
 #about {
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  background-color: tomato;
 }
 
 #skills {
   width: 100vw;
   height: 100vh;
-  background-color: lightblue;
+  background-color: gold;
 }
 
 #portfolio {
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  background-color: deeppink;
 }
 
 #connect {
   width: 100vw;
   height: 100vh;
-  background-color: lightblue;
+  background-color: rebeccapurple;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */

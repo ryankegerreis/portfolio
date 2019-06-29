@@ -1,5 +1,12 @@
-$main-bg:lightblue;
-$alternate-bg:white;
+*{
+	font-family: "Roboto";
+}
+
+$main-bg:darkslateblue;
+$alternate-bg:tomato;
+$bg-3:gold;
+$bg-4:deeppink;
+$bg-5:rebeccapurple;
 
 .flex{
 display: flex;
@@ -9,11 +16,12 @@ align-items: center;
 }
 
 #nav{
-
+background-color: white;
+	// Establish some media queries so it doesnt break
 	li{
 		padding:0 8vw;
+		font-size: 1.2em;
 	}
-	
 }
 
 
@@ -23,6 +31,7 @@ align-items: center;
 width: 100vw;
 height: 100vh;
 background-color: $main-bg;
+color: white;
 }
 
 #about{
@@ -34,17 +43,22 @@ background-color: $main-bg;
 #skills{
 	width: 100vw;
 	height: 100vh;
-	background-color: $main-bg;
+	background-color: $bg-3;
 }
 
 #portfolio{
 	width: 100vw;
 	height: 100vh;
-	background-color: $alternate-bg;
+	background-color: $bg-4;
 }
 
 #connect{
 	width: 100vw;
 	height: 100vh;
-	background-color: $main-bg;
+	background-color: $bg-5;
+	color: white;
 }
+
+
+
+//Other

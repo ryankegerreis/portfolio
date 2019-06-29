@@ -6,7 +6,7 @@ export default class Connect extends Component {
       <Fragment>
         <div id='connect' className='flex'>
           <h1>Let's connect.</h1>
-          <p>I promise I don't bite.</p>
+          <p>Promise I don't bite.</p>
         </div>
       </Fragment>
     )
