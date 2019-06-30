@@ -18,20 +18,20 @@ export default class App extends Component {
           <Nav />
         </header>
 
-        <Switch>
+        {/* <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/skills" component={Skills} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/connect" component={Connect} />
-        </Switch>
+        </Switch> */}
 
         {/* Re implement this once you can lock the screen to one page and scroll down via nav bar. */}
-        {/* <Home />
+        <Home />
         <About />
         <Skills />
         <Portfolio />
-        <Connect /> */}
+        <Connect />
 
 
 
