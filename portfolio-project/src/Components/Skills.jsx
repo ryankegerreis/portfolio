@@ -4,7 +4,7 @@ export default class Skills extends Component {
   render() {
     return (
       <Fragment>
-        <div id='skills'>
+        <div id='skills' className='flex-row'>
           <div id='skills-header'>
             <h1>These are some skills I've collected.</h1>
           </div>

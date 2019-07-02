@@ -2,7 +2,7 @@
   font-family: "Roboto";
 }
 
-.flex {
+.flex-col {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,39 +16,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-#nav {
-  background-color: white;
-}
-
-#nav li {
-  padding: 0 8vw;
-  font-size: 1.2em;
-}
-
-#home {
   width: 100vw;
   height: 100vh;
-  background-color: darkslateblue;
-  color: white;
 }
 
-#about {
-  width: 100vw;
-  height: 100vh;
-  background-color: tomato;
-}
-
-#about p {
-  width: 50%;
-  text-align: center;
-}
-
-#skills {
-  width: 100vw;
-  height: 100vh;
-  background-color: gold;
+.flex-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,6 +34,40 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+}
+
+#nav {
+  background-color: white;
+}
+
+#nav li {
+  padding: 0 8vw;
+  font-size: 1.2em;
+}
+
+#home {
+  background-color: darkslateblue;
+  color: white;
+}
+
+#about {
+  background-color: tomato;
+}
+
+#about p {
+  width: 50%;
+  text-align: center;
+}
+
+#skills {
+  background-color: gold;
 }
 
 #skills #skills-header {
@@ -82,14 +88,10 @@
 }
 
 #portfolio {
-  width: 100vw;
-  height: 100vh;
   background-color: deeppink;
 }
 
 #connect {
-  width: 100vw;
-  height: 100vh;
   background-color: rebeccapurple;
   color: white;
 }

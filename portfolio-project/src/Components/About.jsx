@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     return (
       <Fragment>
-        <div id='about' className='flex'>
+        <div id='about' className='flex-col'>
           <h1>A little about me.</h1>
           <p>My name is Ryan Kegerreis.</p>
           <h1>A little more about me.</h1>

@@ -8,15 +8,32 @@ $bg-3:gold;
 $bg-4:deeppink;
 $bg-5:rebeccapurple;
 
-.flex{
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
+.flex-col{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.flex-row{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.logo-image{
+width: 50px;
+height: 50px;
 }
 
 #nav{
 background-color: white;
+
 	// Establish some media queries so it doesnt break
 	li{
 		padding:0 8vw;
@@ -28,15 +45,11 @@ background-color: white;
 
 
 #home{
-width: 100vw;
-height: 100vh;
 background-color: $main-bg;
 color: white;
 }
 
 #about{
-	width: 100vw;
-	height: 100vh;
 	background-color: $alternate-bg;
 
 	//Add media queries to avoid breaks
@@ -47,13 +60,7 @@ color: white;
 }
 
 #skills{
-	width: 100vw;
-	height: 100vh;
 	background-color: $bg-3;
-	display: flex;
-	flex-flow:row wrap;
-	justify-content: center;
-	align-items: center;
 
 #skills-header{
 	padding-top: 10%;
@@ -75,18 +82,10 @@ ul{
 }
 
 #portfolio{
-	width: 100vw;
-	height: 100vh;
 	background-color: $bg-4;
 }
 
 #connect{
-	width: 100vw;
-	height: 100vh;
 	background-color: $bg-5;
 	color: white;
 }
-
-
-
-//Other
