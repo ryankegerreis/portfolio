@@ -95,4 +95,17 @@
   background-color: rebeccapurple;
   color: white;
 }
+
+#connect .connect-header {
+  width: 100%;
+  text-align: center;
+  padding-top: 10%;
+}
+
+#connect .columns {
+  width: 30%;
+  text-align: center;
+  padding: 0 5%;
+  height: 50%;
+}
 /*# sourceMappingURL=index.css.map */
