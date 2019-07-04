@@ -12,20 +12,25 @@ export default class Connect extends Component {
           </div>
 
           <div className='columns'>
-            <img src={"../images/001-linkedin.png"} alt="Linkedin" className="logo-image" />
+            <a href="https://www.linkedin.com/in/ryankegerreis/">
+              <img src={"../images/001-linkedin.png"} alt="Linkedin" className="logo-image" />
+            </a>
           </div>
 
           <div className='columns'>
-            <img src={"../images/002-github.png"} alt="Github" className="logo-image" />
+            <a href="https://github.com/ryankegerreis">
+              <img src={"../images/002-github.png"} alt="Github" className="logo-image" />
+            </a>
           </div>
 
           <div className='columns'>
-            <a href="https://www.linkedin.com/in/ryankegerreis/"></a>
-            <img src={"../images/003-email.png"} alt="Email" className="logo-image" />
+            <a href="mailto:ryankegerreis@icloud.com">
+              <img src={"../images/003-email.png"} alt="Email" className="logo-image" />
+            </a>
           </div>
 
         </div>
-      </Fragment>
+      </Fragment >
     )
   }
 
