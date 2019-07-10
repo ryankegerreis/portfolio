@@ -91,6 +91,11 @@
   background-color: deeppink;
 }
 
+#portfolio img {
+  width: 300px;
+  border-radius: 25px;
+}
+
 #portfolio #portfolio-header {
   width: 100%;
   text-align: center;

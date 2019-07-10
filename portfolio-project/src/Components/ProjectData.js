@@ -1,24 +1,24 @@
 const portfolioProjects = [
   {
     id: 1,
-    img: "./images/test.png",
-    github: "https://github.com/CodeByCK/Iron-Budget-Server",
-    live: "http://iron-budget.herokuapp.com",
-    alt: "iron-budget-logo"
+    img: "./images/chicken-run.png",
+    github: "https://github.com/ryankegerreis/platformer-game",
+    live: "https://ryankegerreis.github.io/platformer-game/",
+    alt: "Chicken Run picture"
   },
   {
     id: 2,
-    img: "./images/ironlift.png",
-    github: "https://github.com/CodeByCK/Workout-Log",
-    live: "http://simpleworkoutlog.herokuapp.com",
-    alt: "iron-lift-logo"
+    img: "./images/reinvest.png",
+    github: "https://github.com/ryankegerreis/reinvest",
+    live: "https://reinvest-app.herokuapp.com/",
+    alt: "Reinvest picture"
   },
   {
     id: 3,
-    img: "./images/crossy.png",
-    github: "https://github.com/CodeByCK/IronHack-Game",
-    live: "https://codebyck.github.io/IronHack-Game/",
-    alt: "crossy-logo"
+    img: "./images/promise.png",
+    github: "https://github.com/ryankegerreis/promise",
+    live: "https://promises.herokuapp.com/",
+    alt: "Promise picture"
   }
 ]
 export default portfolioProjects

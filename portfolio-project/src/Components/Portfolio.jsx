@@ -12,21 +12,18 @@ export default class Portfolio extends Component {
 
           <div className='columns'>
             <h3>Chicken Run</h3>
-            <img src={portfolioProjects[0].img} alt="" width='300px' />
+            <img src={portfolioProjects[0].img} alt="" />
           </div>
 
           <div className='columns'>
             <h3>Reinvest</h3>
-            <img src={portfolioProjects[0].img} alt="" width='300px' />
+            <img src={portfolioProjects[1].img} alt="" />
           </div>
 
           <div className='columns'>
             <h3>Promise</h3>
-            <img src={portfolioProjects[0].img} alt="" width='300px' />
+            <img src={portfolioProjects[2].img} alt="" />
           </div>
-
-
-
 
         </div>
       </Fragment>
