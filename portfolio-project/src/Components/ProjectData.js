@@ -1,7 +1,7 @@
 const portfolioProjects = [
   {
     id: 1,
-    img: "./images/ironbudget.png",
+    img: "./images/test.png",
     github: "https://github.com/CodeByCK/Iron-Budget-Server",
     live: "http://iron-budget.herokuapp.com",
     alt: "iron-budget-logo"

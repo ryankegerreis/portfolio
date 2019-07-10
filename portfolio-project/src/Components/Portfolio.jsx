@@ -11,16 +11,18 @@ export default class Portfolio extends Component {
           </div>
 
           <div className='columns'>
-            <p>Isn't it cool?</p>
-            <img src={portfolioProjects[0].img} alt="" width='400px' />
+            <h3>Chicken Run</h3>
+            <img src={portfolioProjects[0].img} alt="" width='300px' />
           </div>
 
           <div className='columns'>
-            <p>Stuff</p>
+            <h3>Reinvest</h3>
+            <img src={portfolioProjects[0].img} alt="" width='300px' />
           </div>
 
           <div className='columns'>
-            <p>More Stuff</p>
+            <h3>Promise</h3>
+            <img src={portfolioProjects[0].img} alt="" width='300px' />
           </div>
 
 
