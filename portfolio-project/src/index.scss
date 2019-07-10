@@ -82,6 +82,19 @@ ul{
 
 #portfolio{
 	background-color: $bg-4;
+	
+
+	#portfolio-header{
+		width: 100%;
+		text-align: center;
+	}
+		.columns {
+			width: 30%;
+			text-align:center;
+			padding: 0 5%;
+			height: 25%;
+		}
+
 }
 
 #connect{
