@@ -1,6 +1,7 @@
 const portfolioProjects = [
   {
     id: 1,
+    name: 'Chicken Run',
     img: "./images/chicken-run.png",
     github: "https://github.com/ryankegerreis/platformer-game",
     live: "https://ryankegerreis.github.io/platformer-game/",
@@ -8,6 +9,7 @@ const portfolioProjects = [
   },
   {
     id: 2,
+    name: 'Reinvest',
     img: "./images/reinvest.png",
     github: "https://github.com/ryankegerreis/reinvest",
     live: "https://reinvest-app.herokuapp.com/",
@@ -15,6 +17,7 @@ const portfolioProjects = [
   },
   {
     id: 3,
+    name: 'Promise',
     img: "./images/promise.png",
     github: "https://github.com/ryankegerreis/promise",
     live: "https://promises.herokuapp.com/",
