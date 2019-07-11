@@ -4,25 +4,23 @@ export default class Nav extends Component {
   render() {
     return (
       <Fragment>
-
-        {/* Bootstrap version */}
         <nav className="navbar fixed-bottom navbar-expand-lg navbar-light bg-light flex" id='nav'>
           <div className="collapse navbar-collapse" >
             <ul className="navbar-nav mr-auto mx-auto">
               <li className="nav-item">
-                <Link className="nav-link" to={'/'}>Home</Link >
+                <a href="#home-link" className="nav-link" >Home</a >
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={'/about'}>About</Link >
+                <a href="#about-link" className="nav-link" >About</a >
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={'/skills'}>Skills</Link >
+                <a href="#skill-link" className="nav-link" >Skills</a >
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={'/portfolio'}>Portfolio</Link >
+                <a href="#portfolio-link" className="nav-link" >Portfolio</a >
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={'/connect'}>Connect</Link >
+                <a href="#connect-link" className="nav-link" >Connect</a >
               </li>
             </ul>
           </div>
