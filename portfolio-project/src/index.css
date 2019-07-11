@@ -53,12 +53,16 @@
 }
 
 #home {
-  background-color: darkslateblue;
+  background-color: #483d8b;
   color: white;
 }
 
+#home span {
+  color: #3d8b47;
+}
+
 #about {
-  background-color: tomato;
+  background-color: #ff6247;
 }
 
 #about p {
@@ -66,14 +70,22 @@
   text-align: center;
 }
 
+#about span {
+  color: #3574A4;
+}
+
 #skills {
-  background-color: gold;
+  background-color: #ffd700;
 }
 
 #skills #skills-header {
   padding-top: 10%;
   width: 100%;
   text-align: center;
+}
+
+#skills span {
+  color: #8106A9;
 }
 
 #skills .columns {
@@ -88,12 +100,16 @@
 }
 
 #portfolio {
-  background-color: deeppink;
+  background-color: #ff1493;
 }
 
 #portfolio img {
   width: 300px;
   border-radius: 25px;
+}
+
+#portfolio span {
+  color: #20B1FF;
 }
 
 #portfolio #portfolio-header {
@@ -159,8 +175,12 @@
 }
 
 #connect {
-  background-color: rebeccapurple;
+  background-color: #663399;
   color: white;
+}
+
+#connect span {
+  color: #E3BB3F;
 }
 
 #connect .connect-header {

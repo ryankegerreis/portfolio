@@ -8,7 +8,7 @@ export default class Connect extends Component {
         <div id='connect' className='flex-row'>
 
           <div className='connect-header'>
-            <h1>Thanks for stopping by. Let's connect.</h1>
+            <h1>Thanks for stopping by. <span>Let's connect.</span></h1>
           </div>
 
           <div className='columns'>

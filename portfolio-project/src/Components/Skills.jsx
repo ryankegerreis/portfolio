@@ -6,7 +6,7 @@ export default class Skills extends Component {
       <Fragment>
         <div id='skills' className='flex-row'>
           <div id='skills-header'>
-            <h1>These are some skills I've collected.</h1>
+            <h1>These are <span>some skills</span> I've collected.</h1>
           </div>
 
 

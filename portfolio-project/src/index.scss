@@ -2,11 +2,11 @@
 	font-family: "Roboto";
 }
 
-$main-bg:darkslateblue;
-$alternate-bg:tomato;
-$bg-3:gold;
-$bg-4:deeppink;
-$bg-5:rebeccapurple;
+$main-bg:#483d8b;
+$alternate-bg:#ff6247;
+$bg-3:#ffd700;
+$bg-4:#ff1493;
+$bg-5:#663399;
 
 .flex-col{
 	display: flex;
@@ -47,6 +47,9 @@ background-color: white;
 #home{
 background-color: $main-bg;
 color: white;
+span{
+	color: #3d8b47;
+}
 }
 
 #about{
@@ -57,6 +60,10 @@ color: white;
 		width:50%;
 		text-align: center;
 	}
+
+	span{
+		color: #3574A4;
+	}
 }
 
 #skills{
@@ -66,6 +73,10 @@ color: white;
 	padding-top: 10%;
 	width: 100%;
 	text-align: center;
+}
+
+span{
+	color: #8106A9;
 }
 
 .columns{
@@ -86,7 +97,10 @@ ul{
 	img{
 width: 300px;
 border-radius: 25px;
+	}
 
+	span{
+		color: #20B1FF;
 	}
 
 	#portfolio-header{
@@ -148,6 +162,12 @@ border-radius: 25px;
 #connect{
 	background-color: $bg-5;
 	color: white;
+
+	span{
+		color: #E3BB3F;
+	}
+
+	
 
 .connect-header{
 	width: 100%;

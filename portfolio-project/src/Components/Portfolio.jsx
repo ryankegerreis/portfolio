@@ -7,7 +7,7 @@ export default class Portfolio extends Component {
       <Fragment>
         <div id='portfolio' className='flex-row'>
           <div id='portfolio-header'>
-            <h1>This is my portfolio.</h1>
+            <h1>This is <span>my portfolio.</span></h1>
           </div>
 
           <div className='columns overlaythree'>

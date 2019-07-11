@@ -5,7 +5,7 @@ export default class Home extends Component {
     return (
       <Fragment>
         <div id='home' className='flex-col'>
-          <h1>Hi, I'm Ryan.</h1>
+          <h1>Hi <span>I'm Ryan</span>.</h1>
           <p>I'm a web developer.</p>
         </div>
 
