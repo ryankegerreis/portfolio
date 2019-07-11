@@ -88,6 +88,18 @@
   color: #8106A9;
 }
 
+#skills img {
+  width: 15%;
+}
+
+#skills .right {
+  margin-left: auto;
+}
+
+#skills .left {
+  margin-right: auto;
+}
+
 #skills .columns {
   width: 30%;
   text-align: center;
