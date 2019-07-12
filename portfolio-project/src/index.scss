@@ -39,6 +39,32 @@ background-color: white;
 		padding:0 8vw;
 		font-size: 1.2em;
 	}
+
+#nav-home:hover{
+	color:$main-bg;
+	transition: all .25s ease-in-out;
+}
+
+#nav-about:hover{
+	color:$alternate-bg;
+	transition: all .25s ease-in-out;
+}
+
+#nav-skills:hover{
+	color:$bg-3;
+	transition: all .25s ease-in-out;
+}
+
+#nav-port:hover{
+	color:$bg-4;
+	transition: all .25s ease-in-out;
+}
+
+#nav-connect:hover{
+	color:$bg-5;
+	transition: all .25s ease-in-out;
+}
+
 }
 
 
