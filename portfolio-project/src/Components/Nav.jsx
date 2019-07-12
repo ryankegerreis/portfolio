@@ -4,8 +4,8 @@ export default class Nav extends Component {
   render() {
     return (
       <Fragment>
-        <nav className="navbar fixed-bottom navbar-expand-lg navbar-light bg-light flex" id='nav'>
-          <div className="collapse navbar-collapse" >
+        <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light" id='nav'>
+          <div>
             <ul className="navbar-nav mr-auto mx-auto">
               <li className="nav-item">
                 <a href="#home-link" className="nav-link" id='nav-home' >Home</a >
@@ -25,18 +25,6 @@ export default class Nav extends Component {
             </ul>
           </div>
         </nav>
-
-
-        {/* Flexbox version */}
-        {/* <nav id='nav'>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Portfolio</li>
-            <li>Connect</li>
-          </ul>
-        </nav> */}
       </Fragment >
     )
   }

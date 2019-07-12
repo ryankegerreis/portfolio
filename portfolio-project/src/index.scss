@@ -4,7 +4,6 @@
 	p{
 		font-size: 1.2em;
 	}
-
 }
 
 $main-bg:#483d8b;
@@ -19,7 +18,7 @@ $bg-5:#663399;
 	flex-direction: column;
 	align-items: center;
 	width: 100vw;
-	height: 100vh;
+	height: 110vh;
 }
 
 .flex-row{
@@ -28,8 +27,37 @@ $bg-5:#663399;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
-	height: 100vh;
+	height: 110vh;
 }
+
+@media (max-width:360px) {
+.flex-row {
+	height:200vh;
+}
+
+.flex-col {
+	height:180vh;
+}
+
+
+}
+
+@media (max-width:1000px) {
+	#portfolio-header{
+		padding-top: 10%;
+	}
+	
+	#portfolio div{
+		width: 100%;
+	}
+	
+	#skills div{
+		width: 50%;
+	}
+
+}
+
+
 
 .logo-image{
 width: 50px;
@@ -39,7 +67,6 @@ height: 50px;
 #nav{
 background-color: white;
 
-	// Establish some media queries so it doesnt break
 	li{
 		padding:0 8vw;
 		font-size: 1.2em;
@@ -127,11 +154,7 @@ span{
 	text-align: center;
 }
 
-@media (max-width:768px ) {
-	div{
-		width: 50%;
-	}
-}
+
 
 span{
 	color: #8106A9;
@@ -161,6 +184,8 @@ ul{
 
 #portfolio{
 	background-color: $bg-4;
+
+
 	
 	img{
 width: 300px;
@@ -171,16 +196,14 @@ border-radius: 25px;
 		color: #20B1FF;
 	}
 
+	table{
+		text-align: center;
+	}
+
 	#portfolio-header{
 		width: 100%;
 		text-align: center;
 	}
-		.columns {
-			width: 30%;
-			text-align:center;
-			padding: 0 5%;
-			height: 25%;
-		}
 }
 
 #connect{

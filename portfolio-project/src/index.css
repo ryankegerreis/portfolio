@@ -21,7 +21,7 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
 }
 
 .flex-row {
@@ -39,7 +39,28 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
+}
+
+@media (max-width: 360px) {
+  .flex-row {
+    height: 200vh;
+  }
+  .flex-col {
+    height: 180vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  #portfolio-header {
+    padding-top: 10%;
+  }
+  #portfolio div {
+    width: 100%;
+  }
+  #skills div {
+    width: 50%;
+  }
 }
 
 .logo-image {
@@ -149,12 +170,6 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  #skills div {
-    width: 50%;
-  }
-}
-
 #skills span {
   color: #8106A9;
 }
@@ -193,16 +208,13 @@
   color: #20B1FF;
 }
 
-#portfolio #portfolio-header {
-  width: 100%;
+#portfolio table {
   text-align: center;
 }
 
-#portfolio .columns {
-  width: 30%;
+#portfolio #portfolio-header {
+  width: 100%;
   text-align: center;
-  padding: 0 5%;
-  height: 25%;
 }
 
 #connect {
