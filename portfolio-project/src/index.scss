@@ -1,5 +1,10 @@
 *{
 	font-family: "Roboto";
+
+	p{
+		font-size: 1.2em;
+	}
+
 }
 
 $main-bg:#483d8b;
@@ -67,9 +72,6 @@ background-color: white;
 
 }
 
-
-
-
 #home{
 background-color: $main-bg;
 color: white;
@@ -92,6 +94,30 @@ span{
 	}
 }
 
+.parent{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.child1{
+	width: 25%;
+	}
+	
+.child2{
+	width: 25%;
+	}
+
+.child3{
+	width: 25%;
+		}
+
+.child4{
+	width: 25%;
+	}
+
 #skills{
 	background-color: $bg-3;
 
@@ -101,21 +127,26 @@ span{
 	text-align: center;
 }
 
+@media (max-width:768px ) {
+	div{
+		width: 50%;
+	}
+}
+
 span{
 	color: #8106A9;
 }
 
 img{
-width:15%;
+height:50px;
+width:50px;;
 }
 
-.right{
-margin-left: auto;
+tr {
+	height:50px;
+	text-align: center;
 }
 
-.left{
-margin-right: auto;
-}
 .columns{
 	width: 30%;
 	text-align:center;
@@ -182,10 +213,12 @@ border-radius: 25px;
 	height: 360px;
 	display: inline-block;
 }
+
 .pseudover {
  position: relative;
  display: inline-block;
 }
+
 .pseudover:after {
 content: attr(title);
 color: rgba(255, 255, 255, 0.75);
@@ -196,10 +229,12 @@ top: 0;
 right: 0;
 transition: all .25s ease-in-out;
 }
+
 .pseudover:hover:after {
 background: rgba(0, 182, 221, 0.8);
 color: #fff;
 }
+
 .pseudover.v2:after {
 content: "";
 width: 100%;
@@ -207,6 +242,7 @@ height: 100%;
 box-sizing: border-box;
 border-radius: 25px;
 }
+
 .pseudover.v2:hover:before {
 content: attr(title);
 position: absolute;
