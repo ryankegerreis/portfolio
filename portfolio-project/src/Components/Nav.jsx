@@ -6,7 +6,7 @@ export default class Nav extends Component {
       <Fragment>
         <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light" id='nav'>
           <div>
-            <ul className="navbar-nav mr-auto mx-auto">
+            <ul className="navbar-nav">
               <li className="nav-item">
                 <a href="#home-link" className="nav-link" id='nav-home' >Home</a >
               </li>
