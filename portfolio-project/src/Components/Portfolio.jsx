@@ -8,7 +8,7 @@ export default class Portfolio extends Component {
         <section id='portfolio-link'>
           <div id='portfolio' className='flex-row'>
             <div id='portfolio-header'>
-              <h1>This is <span>my portfolio.</span></h1>
+              <h1>These are some <span>projects I've created.</span></h1>
             </div>
 
             <div className='overlaythree'>

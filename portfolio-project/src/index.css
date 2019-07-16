@@ -68,15 +68,6 @@
   height: 50px;
 }
 
-#nav {
-  background-color: white;
-}
-
-#nav li {
-  padding: 0 8vw;
-  font-size: 1.2em;
-}
-
 #nav #nav-home:hover {
   color: #483d8b;
   -webkit-transition: all .25s ease-in-out;
