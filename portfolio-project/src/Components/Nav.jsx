@@ -1,10 +1,12 @@
 import React, { Component, Fragment } from 'react'
+import ResponsiveMenu from 'react-responsive-navbar';
 
 export default class Nav extends Component {
   render() {
     return (
       <Fragment>
         <nav className="navbar fixed-top navbar-expand-sm navbar-light bg-light" id='nav'>
+
           <div>
             <ul className="navbar-nav">
               <li className="nav-item">
@@ -24,6 +26,7 @@ export default class Nav extends Component {
               </li>
             </ul>
           </div>
+
         </nav>
       </Fragment >
     )
