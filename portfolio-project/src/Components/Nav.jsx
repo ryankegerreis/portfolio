@@ -52,28 +52,10 @@ export default class Navigation extends Component {
             <AnchorLink href="#connect-link" className="navLink" id='nav-connect'>Connect</AnchorLink>
           </Navbar.Text>
           <Navbar.Text className="mr-md-3">
-            <a href="https://docs.google.com/document/d/1fRnv_0hY7TbSPWrWmskal4G5gLaatIabX_lh8i5a0xk/edit?usp=sharing" className="btn btn-project">CV</a>
+            <a href="https://drive.google.com/file/d/1rIwie_5ub1pNfpQLAqRJlJTovqKdIS2U/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
           </Navbar.Text>
           {/* </Navbar.Collapse> */}
         </Navbar>
-
-        {/* <Nav fill variant="tabs" defaultActiveKey="/home">
-          <Nav.Item>
-            <Nav.Link href="/home">Active</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-1">Loooonger NavLink</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="disabled" disabled>
-              Disabled
-    </Nav.Link>
-          </Nav.Item>
-        </Nav> */}
-
       </Fragment >
     )
   }
