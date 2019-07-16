@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react'
-import ResponsiveMenu from 'react-responsive-navbar';
 
 export default class Nav extends Component {
   render() {
