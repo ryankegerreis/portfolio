@@ -30,35 +30,6 @@ $bg-5:#663399;
 	height: 110vh;
 }
 
-@media (max-width:360px) {
-.flex-row {
-	height:200vh;
-}
-
-.flex-col {
-	height:180vh;
-}
-
-
-}
-
-@media (max-width:1000px) {
-	#portfolio-header{
-		padding-top: 10%;
-	}
-	
-	#portfolio div{
-		width: 100%;
-	}
-	
-	#skills div{
-		width: 50%;
-	}
-
-}
-
-
-
 .logo-image{
 width: 50px;
 height: 50px;
@@ -103,7 +74,6 @@ span{
 #about{
 	background-color: $alternate-bg;
 
-	//Add media queries to avoid breaks
 	p{
 		width:50%;
 		text-align: center;
@@ -270,4 +240,58 @@ color: #fff;
 z-index: 2;
 text-align: center;
 font-family: helvetica;
+}
+
+//Media Queries and screen sizing
+@media (max-device-width:320px) {
+	#about{
+		height: 110vh;
+
+	p{
+		width:70%;
+		}
+	}
+
+#skills{
+	height:180vh;
+}
+
+#portfolio{
+	height:215vh;
+}
+}
+
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 480px) {
+	#about{
+	p{
+		width:70%;
+		}
+	}
+
+  #skills{
+		height:160vh;
+	}
+	
+	#portfolio{
+		height:185vh;
+	}
+}
+
+
+
+@media (max-width:1000px) {
+	#portfolio-header{
+		padding-top: 10%;
+	}
+	
+	#portfolio div{
+		width: 100%;
+	}
+	
+	#skills div{
+		width: 50%;
+	}
+
 }
