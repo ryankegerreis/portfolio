@@ -309,8 +309,8 @@
   /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em;
   /* Adjust as needed */
-  -webkit-animation: typing 2s steps(15, end), blink-caret 0.75s step-end infinite;
-          animation: typing 2s steps(15, end), blink-caret 0.75s step-end infinite;
+  -webkit-animation: typing 1.5s steps(13, end), blink-caret 0.75s step-end infinite;
+          animation: typing 1.5s steps(13, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
@@ -337,7 +337,7 @@
     border-color: transparent;
   }
   50% {
-    border-color: orange;
+    border-color: white;
   }
 }
 @keyframes blink-caret {
@@ -345,7 +345,7 @@
     border-color: transparent;
   }
   50% {
-    border-color: orange;
+    border-color: white;
   }
 }
 /*# sourceMappingURL=index.css.map */
