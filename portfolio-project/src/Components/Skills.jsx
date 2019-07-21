@@ -14,12 +14,14 @@ export default class Skills extends Component {
             <div className='child1'>
 
               <table align="center">
-                <tr><img src="./images/logos/html-5.svg" alt="" srcset="" /></tr>
-                <tr> <p>HTML5</p> </tr>
-                <tr><img src="./images/logos/css-3.svg" alt="" srcset="" /></tr>
-                <tr><p>CSS3</p></tr>
-                <tr><img src="./images/logos/sass.svg" alt="" srcset="" /></tr>
-                <tr><p>SASS</p></tr>
+                <tbody>
+                  <tr><img src="./images/logos/html-5.svg" alt="HTML 5" /></tr>
+                  <tr> <p>HTML5</p> </tr>
+                  <tr><img src="./images/logos/css-3.svg" alt="CSS 3" /></tr>
+                  <tr><p>CSS3</p></tr>
+                  <tr><img src="./images/logos/sass.svg" alt="SASS" /></tr>
+                  <tr><p>SASS</p></tr>
+                </tbody>
               </table>
 
             </div>
@@ -27,12 +29,14 @@ export default class Skills extends Component {
             <div className='child2'>
 
               <table align="center">
-                <tr><img src="./images/logos/jquery.svg" alt="" srcset="" /></tr>
-                <tr> <p>HTML5</p> </tr>
-                <tr><img src="./images/logos/bootstrap.svg" alt="" srcset="" /></tr>
-                <tr><p>CSS3</p></tr>
-                <tr><img src="./images/logos/react.svg" alt="" srcset="" /></tr>
-                <tr><p>SASS</p></tr>
+                <tbody>
+                  <tr><img src="./images/logos/jquery.svg" alt="jquery" /></tr>
+                  <tr> <p>HTML5</p> </tr>
+                  <tr><img src="./images/logos/bootstrap.svg" alt="Bootstrap" /></tr>
+                  <tr><p>CSS3</p></tr>
+                  <tr><img src="./images/logos/react.svg" alt="React" /></tr>
+                  <tr><p>SASS</p></tr>
+                </tbody>
               </table>
 
 
@@ -44,11 +48,11 @@ export default class Skills extends Component {
 
 
               <table align="center">
-                <tr><img src="./images/logos/javascript.svg" alt="" srcset="" /></tr>
+                <tr><img src="./images/logos/javascript.svg" alt="Javascript" /></tr>
                 <tr> <p>Javascript</p> </tr>
-                <tr><img src="./images/logos/nodejs.svg" alt="" srcset="" /></tr>
+                <tr><img src="./images/logos/nodejs.svg" alt="Nodejs" /></tr>
                 <tr><p>Node.js</p></tr>
-                <tr><img src="./images/logos/express.svg" alt="" srcset="" /></tr>
+                <tr><img src="./images/logos/express.svg" alt="express" /></tr>
                 <tr><p>Express.js</p></tr>
               </table>
 
@@ -59,11 +63,11 @@ export default class Skills extends Component {
             <div className='child4'>
 
               <table align="center">
-                <tr><img src="./images/logos/mongodb.svg" alt="" srcset="" /></tr>
+                <tr><img src="./images/logos/mongodb.svg" alt="mongodb" /></tr>
                 <tr> <p>MongoDB</p> </tr>
-                <tr><img src="./images/logos/mongoose.svg" alt="" srcset="" /></tr>
+                <tr><img src="./images/logos/mongoose.svg" alt="mongoose" /></tr>
                 <tr><p>Mongoose</p></tr>
-                <tr><img src="./images/logos/ajax.svg" alt="" srcset="" /></tr>
+                <tr><img src="./images/logos/ajax.svg" alt="ajax" /></tr>
                 <tr><p>AJAX</p></tr>
               </table>
 
