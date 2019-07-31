@@ -39,10 +39,7 @@ export default class Skills extends Component {
                 </tbody>
               </table>
 
-
             </div>
-
-
 
             <div className='child3'>
 
@@ -55,8 +52,6 @@ export default class Skills extends Component {
                 <tr><img src="./images/logos/express.svg" alt="express" /></tr>
                 <tr><p>Express.js</p></tr>
               </table>
-
-
 
             </div>
 
@@ -71,8 +66,6 @@ export default class Skills extends Component {
                 <tr><p>AJAX</p></tr>
               </table>
 
-
-
             </div>
 
 
@@ -82,5 +75,4 @@ export default class Skills extends Component {
       </Fragment >
     )
   }
-
 }
