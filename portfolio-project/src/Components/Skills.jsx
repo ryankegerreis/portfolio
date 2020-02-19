@@ -43,19 +43,10 @@ export default class Skills extends Component {
                   <img src="./images/logos/jquery.svg" alt="jquery" />
                   <p>HTML5</p>
                   <img src="./images/logos/bootstrap.svg" alt="Bootstrap" />
-                  <p>CSS3</p>
+                  <p>Bootstrap</p>
                   <img src="./images/logos/react.svg" alt="React" />
                   <p>React.js</p>
                 </tbody>
-
-                {/* <tbody>
-                  <tr><img src="./images/logos/jquery.svg" alt="jquery" /></tr>
-                  <tr> <p>HTML5</p> </tr>
-                  <tr><img src="./images/logos/bootstrap.svg" alt="Bootstrap" /></tr>
-                  <tr><p>CSS3</p></tr>
-                  <tr><img src="./images/logos/react.svg" alt="React" /></tr>
-                  <tr><p>SASS</p></tr>
-                </tbody> */}
 
               </table>
 
@@ -73,14 +64,6 @@ export default class Skills extends Component {
                 <p>Express.js</p>
               </table>
 
-              {/* <table align="center">
-                <tr><img src="./images/logos/javascript.svg" alt="Javascript" /></tr>
-                <tr> <p>Javascript</p> </tr>
-                <tr><img src="./images/logos/nodejs.svg" alt="Nodejs" /></tr>
-                <tr><p>Node.js</p></tr>
-                <tr><img src="./images/logos/express.svg" alt="express" /></tr>
-                <tr><p>Express.js</p></tr>
-              </table> */}
 
             </div>
 
@@ -95,15 +78,6 @@ export default class Skills extends Component {
                 <p>AJAX</p>
               </table>
 
-
-              {/* <table align="center">
-                <tr><img src="./images/logos/mongodb.svg" alt="mongodb" /></tr>
-                <tr> <p>MongoDB</p> </tr>
-                <tr><img src="./images/logos/mongoose.svg" alt="mongoose" /></tr>
-                <tr><p>Mongoose</p></tr>
-                <tr><img src="./images/logos/ajax.svg" alt="ajax" /></tr>
-                <tr><p>AJAX</p></tr>
-              </table> */}
 
 
             </div>
