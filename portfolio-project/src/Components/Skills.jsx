@@ -45,7 +45,7 @@ export default class Skills extends Component {
                   <img src="./images/logos/bootstrap.svg" alt="Bootstrap" />
                   <p>CSS3</p>
                   <img src="./images/logos/react.svg" alt="React" />
-                  <p>SASS</p>
+                  <p>React.js</p>
                 </tbody>
 
                 {/* <tbody>
